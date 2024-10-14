@@ -24,7 +24,7 @@ namespace Agenda
             };
             contato.AdicionarTelefone(new Telefone
             {
-                Tipo = txtTipoTelefone.Text,
+                Tipo = cmbTipoTelefone.SelectedItem.ToString(),
                 Numero = txtNumeroTelefone.Text,
                 Principal = chkPrincipal.Checked
             });
@@ -69,7 +69,7 @@ namespace Agenda
             };
             contato.AdicionarTelefone(new Telefone
             {
-                Tipo = txtTipoTelefone.Text,
+                Tipo = cmbTipoTelefone.SelectedItem.ToString(),
                 Numero = txtNumeroTelefone.Text,
                 Principal = chkPrincipal.Checked
             });
